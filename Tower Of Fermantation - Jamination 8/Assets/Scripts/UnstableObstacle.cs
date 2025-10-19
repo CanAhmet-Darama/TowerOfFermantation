@@ -13,10 +13,16 @@ public class UnstableObstacle : MonoBehaviour
     bool firstPosTargeted = true;
     //public bool impulsing;
     public static float obstacleUnstability;
+    private void Start()
+    {
+        if (obstacleType == ObstacleType.positioning) {
+            currentTarget = positions[0];
+        }
+    }
     private void Update()
     {
         if (obstacleType == ObstacleType.rotating){
-            transform.Rotate(Vector3.up, 50 * (PlayerController.currentUnstability + obstacleUnstability) * Time.deltaTime);
+            transform.Rotate(Vector3.up, 135 * (PlayerController.currentUnstability + obstacleUnstability) * Time.deltaTime);
         }
         else if (obstacleType == ObstacleType.positioning) {
             transform.position += (currentTarget-transform.position).normalized*(PlayerController.currentUnstability + obstacleUnstability)*moveSpeed*Time.deltaTime;
