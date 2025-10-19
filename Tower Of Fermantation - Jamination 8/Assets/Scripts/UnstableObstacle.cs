@@ -22,7 +22,7 @@ public class UnstableObstacle : MonoBehaviour
     private void Update()
     {
         if (obstacleType == ObstacleType.rotating){
-            transform.Rotate(Vector3.up, 135 * (PlayerController.currentUnstability + obstacleUnstability) * Time.deltaTime);
+            transform.Rotate(Vector3.up, 180 * (PlayerController.currentUnstability + obstacleUnstability) * Time.deltaTime);
         }
         else if (obstacleType == ObstacleType.positioning) {
             transform.position += (currentTarget-transform.position).normalized*(PlayerController.currentUnstability + obstacleUnstability)*moveSpeed*Time.deltaTime;
@@ -40,6 +40,7 @@ public class UnstableObstacle : MonoBehaviour
             if (other.CompareTag("Player"))
             {
                 other.transform.parent = transform;
+                other.transform.localScale = Vector3.one;
             }
         }
     }
@@ -50,6 +51,7 @@ public class UnstableObstacle : MonoBehaviour
             if (other.CompareTag("Player"))
             {
                 other.transform.parent = null;
+                other.transform.localScale = Vector3.one;
             }
         }
 

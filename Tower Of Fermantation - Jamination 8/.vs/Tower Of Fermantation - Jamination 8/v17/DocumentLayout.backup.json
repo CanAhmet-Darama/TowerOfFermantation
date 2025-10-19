@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\assets\\scripts\\unstableobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|c:\\can ahmet ssd diz\u00FCst\u00FC\\tower-of-fermantation\\tower of fermantation - jamination 8\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\assets\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|c:\\can ahmet ssd diz\u00FCst\u00FC\\tower-of-fermantation\\tower of fermantation - jamination 8\\assets\\scripts\\unstableobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unstableobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|c:\\can ahmet ssd diz\u00FCst\u00FC\\tower-of-fermantation\\tower of fermantation - jamination 8\\assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\assets\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7356F472-7E7D-A256-75D8-CA16D182FB38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkpoint.cs",
+              "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Checkpoint.cs",
+              "ToolTip": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Checkpoint.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T11:07:23.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "UnstableObstacle.cs",
+              "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UnstableObstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UnstableObstacle.cs",
+              "ToolTip": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UnstableObstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UnstableObstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T09:12:29.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GroundCheck.cs",
               "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\GroundCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundCheck.cs",
@@ -46,37 +72,24 @@
               "RelativeToolTip": "Assets\\Scripts\\GroundCheck.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAxwBUAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:45:08.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T16:45:08.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UI_Manager.cs",
               "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UI_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Manager.cs",
               "ToolTip": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UI_Manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI_Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:57:50.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnstableObstacle.cs",
-              "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UnstableObstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UnstableObstacle.cs",
-              "ToolTip": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\UnstableObstacle.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UnstableObstacle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T09:12:29.825Z",
+              "WhenOpened": "2025-10-18T15:57:50.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Can Ahmet SSD Diz\u00FCst\u00FC\\Tower-Of-Fermantation\\Tower Of Fermantation - Jamination 8\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
     [Header("Movement")]
     public float baseWalkSpeed;
     public float baseMouseSensitivity;
@@ -28,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public float minMultiplier;
     public float maxMultiplier;
     public UI_Manager canvas;
+    public Transform winPosition;
+    public Transform winCamPos;
     
     void Start()
     {
@@ -37,18 +40,27 @@ public class PlayerController : MonoBehaviour
         jumped = false;
 
         animator.SetBool("Idle", true);
+        instance = this;
+        Checkpoint.winPosition = winPosition.position + Vector3.up;
+        Checkpoint.winCamPos = winCamPos.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        InputManage();
+        if (!Checkpoint.gameWon)
+        {
+            InputManage();
+            float forwardSpeed = baseWalkSpeed * currentUnstability * Time.deltaTime * (sprinting ? 2 : 1) * ((transform.forward * moveDirection.y + transform.right * moveDirection.x).normalized).z;
+            float rightSpeed = baseWalkSpeed * currentUnstability * Time.deltaTime * (sprinting ? 2 : 1) * ((transform.forward * moveDirection.y + transform.right * moveDirection.x).normalized).x;
+            Vector3 unprojectedVelocity = new Vector3(rightSpeed, playerRb.velocity.y, forwardSpeed);
+            playerRb.velocity = Vector3.ProjectOnPlane(unprojectedVelocity, groundSlope);
+        }
+        else
+        {
+            playerRb.velocity = Vector3.zero;
+        }
         AnimationManage();
-
-        float forwardSpeed = baseWalkSpeed * currentUnstability * Time.deltaTime * (sprinting ? 2 : 1) * ((transform.forward * moveDirection.y + transform.right * moveDirection.x).normalized).z;
-        float rightSpeed = baseWalkSpeed * currentUnstability * Time.deltaTime * (sprinting ? 2 : 1) * ((transform.forward * moveDirection.y + transform.right * moveDirection.x).normalized).x;
-        Vector3 unprojectedVelocity = new Vector3(rightSpeed,playerRb.velocity.y, forwardSpeed);
-        playerRb.velocity = Vector3.ProjectOnPlane(unprojectedVelocity, groundSlope);
     }
     private void LateUpdate()
     {
@@ -103,6 +115,9 @@ public class PlayerController : MonoBehaviour
             jumped = true;
             animator.SetTrigger("Jump");
         }
+        if (Input.GetKeyDown(KeyCode.R)) {
+            Checkpoint.Repsawn(gameObject);
+        }
     }
     void AnimationManage()
     {
@@ -132,6 +147,9 @@ public class PlayerController : MonoBehaviour
         Debug.Log("New Unstability : " + currentUnstability);
         UnstableObstacle.obstacleUnstability = Random.Range(0, 2);
         yield return new WaitForSeconds(Random.Range(minCooldown,maxCooldown));
-        StartCoroutine(Unstabilize());
+        if (!Checkpoint.gameWon)
+        {
+            StartCoroutine(Unstabilize());
+        }
     }
 }
